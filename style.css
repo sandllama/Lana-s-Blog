@@ -1,0 +1,180 @@
+body{
+  background-color: #121212;
+}
+
+.info, nav{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.recent-posts {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.info {
+  width: 600px;
+}
+
+.info h3{
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size; 1.1em;
+  color: #eee;
+  text-align: center;
+}
+
+ul{
+  height: 110px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  font-family: 'Slabo 27px', serif;
+  font-weight: 400;
+  font-size: 45px;
+  background: #000;
+  color: #fff;
+  width: 2.8rem;
+  height: 3.4rem;
+  text-align: center;
+  border-bottom: 5px solid #fff;
+  transition: border-bottom-color 0.3s;
+  transition: padding 0.3s;
+  padding: 0.2rem;
+}
+
+.logo:hover{
+  border-bottom-color: #ff3885;
+  padding: 0.4rem;
+  transition: border-bottom-color 0.3s;
+  transition: padding 0.3s;
+}
+
+li {
+  margin: auto 0;
+  list-style: none;
+  letter-spacin: 2px;
+}
+
+main h1{
+  font-family: 'Nixie One';
+  font-weight: 500;
+  font-size: 85px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;
+  padding: 2rem 0;
+  color: #eee;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Nixie One';
+  font-weight: 700;
+  padding: 5px 30px;
+}
+
+nav a:hover {
+    color: #4deddc;
+}
+
+.horizontal-line{
+  display: flex;
+  margin: auto;
+  width: 750px;
+  height: 2px;
+  background-color: #4deddc;
+  opacity: 0.5;
+}
+
+footer{
+  padding: 1em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 350px;
+  height: 30px;
+  margin: auto;
+}
+
+.fa {
+  color: #eee;
+  transition: all 0.1s ease-in-out;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-github-alt{
+  font-size: 1.5em;
+}
+
+.fa:hover{
+  color: #4deddc;
+  transition: all 0.1s ease-in-out;
+  border-bottom: 3px solid #eee;
+}
+
+.underline{
+  height: 3px;
+  width: 3%;
+  position: relative;
+  top: -20px;
+  background-color: #eee;
+}
+
+.recent-posts .date, .recent-posts p{
+    font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+}
+
+.recent-posts h2, .recent-posts h1{
+  font-family: 'Slabo 27px', serif;
+  font-weight: 300;
+}
+
+.recent-posts h1{
+  color: #4deddc;
+  font-size: 2em;
+}
+
+.recent-posts h2{
+  margin-bottom: 0;
+  font-size: 1.5em;
+  color: #eee;
+}
+
+.recent-posts .date{
+  color: #4deddc;
+  font-size: 0.7em;
+  position: relative;
+  top: -0.3em;
+}
+
+.recent-posts p {
+  color: #ccc;
+}
+
+.recent-posts a{
+  padding: 0;
+  text-decoration: underline;
+  color: #4deddc;
+}
+
+#currtime { 
+  color: #eee;
+  font-family: Helvetica Neue, sans-serif; 
+  font-weight: 100;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 4rem 0;
+}
+
